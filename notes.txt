@@ -1,0 +1,8 @@
+pour poisson: Poisson(lambda)
+    exp(1/lambda)
+
+1) premier tirage: Génére U € [0,1]
+2) D = (1/lambda)log(U)
+
+bouclé ça pour généré un nombre aléatoire entre 0 et 1 
+t: estimation du délai jusqu'à la prochaine arrivée
