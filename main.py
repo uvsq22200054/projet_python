@@ -14,6 +14,9 @@ class Paquet():
     def get_donnees(self):
         return self.donnees
 
+    def set_donnees(self, value):
+        self.donnees = value
+
     def add_donnees(self, value):
         self.donnees.append(value)
     
